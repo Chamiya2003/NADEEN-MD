@@ -9,7 +9,7 @@ SESSION_ID: process.env.SESSION_ID || "bE53lKJZ#0Ib0XkRYyl7y5QP0JYteRCFuvGL1VWY7
 MONGODB: process.env.MONGODB || "mongodb://mongo:FQQyixqbcbKXBYexczseeuuIqMXgghuo@nozomi.proxy.rlwy.net:57535",
 MODE: process.env.MODE || "private", //private | public | groups | inbox
 STATUES_REPLY: process.env.STATUES_REPLY || "true", //true or false
-AUTO_REACT: process.env.AUTO_REACT || "true", //true or false
+AUTO_REACT: process.env.AUTO_REACT || "false", //true or false
 INBOX_BLOCK: process.env.INBOX_BLOCK || "false", //true or false
 READ_MESSAGE: process.env.READ_MESSAGE || "false", //true or false
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true", //true or false
